@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
   }
+
+  html, body {
+    height: 100%;
+  }
   
   body {
     font-family: Arial, sans-serif;
@@ -13,10 +17,26 @@
     color: #333;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
   }
   
   /* Tartalom konténer */
-  .container, #wrapper, #content {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  #wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    flex: 1;
+  }
+  
+  #content {
     max-width: 1200px;
     margin: 0 auto;
     padding: 16px;
@@ -69,7 +89,8 @@
   
   /* Űrlapok */
   form {
-    max-width: 500px;
+    width: 100%;
+    max-width: 600px;
     margin: 0 auto;
   }
   
@@ -168,24 +189,24 @@
   }
   
   /* Bejelentkezés és regisztráció űrlap konténer */
-.forms-wrapper {
+  .forms-wrapper {
     display: flex;
     flex-direction: column;
     gap: 40px;
     padding: 20px;
   }
   
-  /* Asztali nézet: űrlapok egymás mellett */
+  .forms-wrapper form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
   @media screen and (min-width: 768px) {
     .forms-wrapper {
       flex-direction: row;
       justify-content: center;
       align-items: flex-start;
-    }
-  
-    .forms-wrapper form {
-      width: 100%;
-      max-width: 400px;
     }
   }
 
