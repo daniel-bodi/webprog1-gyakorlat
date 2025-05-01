@@ -1,10 +1,12 @@
+
+<div class="fooldal-tartalom">
 <h1>Üdvözöljük a Ristretto Kávézónál!</h2>
 <p>A Ristretto egy modern hangulatú, barátságos kávézó, ahol a minőségi kávé és a közösségi élmény találkozik. Legyen szó tanulásról, munkáról vagy egy kis pihenésről – nálunk megtalálod a helyed.</p>
 <p>Napi szinten frissen pörkölt kávéval, házi süteményekkel és otthonos enteriőrrel várunk, hogy kiszakadhass a hétköznapok rohanásából. Ingyenes Wi-Fi, halk zene és barátságos légkör teszi a Ristrettót a város egyik legkedveltebb találkozóhelyévé.</p>
 <p>Térj be hozzánk – legyen ez a te kávézód is!</p>
 <br>
 <br>
-<h2>Nézd meg hangulatvideónkat (saját fájl – 5 mp):</h3>
+<h2>Nézd meg hangulatvideónkat:</h3>
 <video controls width="100%" poster="./images/video_preview.png">
   <source src="./videos/hangulat.mp4" type="video/mp4">
   A böngésződ nem támogatja a videó lejátszását.
@@ -35,3 +37,4 @@
   loading="lazy" 
   referrerpolicy="no-referrer-when-downgrade">
 </iframe>
+</div>

@@ -21,7 +21,15 @@
     flex-direction: column;
     min-height: 100vh
   }
-  
+
+  .fooldal-tartalom {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+  }
+
   /* Tartalom konténer */
   .container {
     max-width: 1200px;
@@ -90,7 +98,6 @@
   /* Űrlapok */
   form {
     width: 100%;
-    max-width: none; 
     margin: 0 auto;
   }
   
