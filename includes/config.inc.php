@@ -1,18 +1,18 @@
 <?php
 $ablakcim = array(
-    'cim' => 'Mini honlap Kft.',
+    'cim' => 'Ristretto Kávézó',
 );
 
 $fejlec = array(
-    'kepforras' => 'logo.png',
-    'kepalt' => 'logo',
-	'cim' => 'Mini honlap',
+    'kepforras' => 'ristretto-logo.png',
+    'kepalt' => 'ristretto-logo',
+	'cim' => 'Ristretto kávézó',
 	'motto' => ''
 );
 
 $lablec = array(
     'copyright' => 'Copyright '.date("Y").'.',
-    'ceg' => 'Mini honlap Kft.'
+    'ceg' => 'Ristretto Kávézó Kft.'
 );
 
 $oldalak = array(
