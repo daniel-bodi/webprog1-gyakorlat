@@ -1,12 +1,12 @@
 
 <div class="fooldal-tartalom">
-<h1>Üdvözöljük a Ristretto Kávézónál!</h2>
+<h1>Üdvözöljük a Ristretto Kávézónál!</h1>
 <p>A Ristretto egy modern hangulatú, barátságos kávézó, ahol a minőségi kávé és a közösségi élmény találkozik. Legyen szó tanulásról, munkáról vagy egy kis pihenésről – nálunk megtalálod a helyed.</p>
 <p>Napi szinten frissen pörkölt kávéval, házi süteményekkel és otthonos enteriőrrel várunk, hogy kiszakadhass a hétköznapok rohanásából. Ingyenes Wi-Fi, halk zene és barátságos légkör teszi a Ristrettót a város egyik legkedveltebb találkozóhelyévé.</p>
 <p>Térj be hozzánk – legyen ez a te kávézód is!</p>
 <br>
 <br>
-<h2>Nézd meg hangulatvideónkat:</h3>
+<h2>Nézd meg hangulatvideónkat:</h2>
 <video controls width="100%" poster="./images/video_preview.png">
   <source src="./videos/hangulat.mp4" type="video/mp4">
   A böngésződ nem támogatja a videó lejátszását.
@@ -14,7 +14,7 @@
 <br>
 <br>
 <br>
-<h2>Kedvenc kávékészítési technikánk YouTube-on:</h3>
+<h2>Kedvenc kávékészítési technikánk YouTube-on:</h2>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe 
     src="https://www.youtube.com/embed/ftzwByCgNUY" 
@@ -25,7 +25,7 @@
 </div>
 <br>
 <br>
-<h2>Hol találsz meg minket?</h3>
+<h2>Hol találsz meg minket?</h2>
 <p><b>Kávézónk címe:</b> 6000 Kecskemét, Izsáki út 10.</p>
 <p>Minden kedves érdeklődőt szeretettel várunk!</p>
 <iframe 
