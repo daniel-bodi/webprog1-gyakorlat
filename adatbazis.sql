@@ -1,7 +1,7 @@
-CREATE DATABASE `gyakorlat7`
+CREATE DATABASE `gyakrolat_beadando`
 CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-USE `gyakorlat7`;
+USE `gyakrolat_beadando`;
 
 CREATE TABLE `felhasznalok` (
   `id` int(10) unsigned NOT NULL auto_increment,
@@ -13,6 +13,15 @@ CREATE TABLE `felhasznalok` (
 )
 ENGINE = MYISAM
 CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+CREATE TABLE uzenetek (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nev VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    uzenet TEXT NOT NULL,
+    datum DATETIME DEFAULT CURRENT_TIMESTAMP,
+    felhasznalo VARCHAR(100) DEFAULT 'Vendég'
+) CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
 
 INSERT INTO `felhasznalok` (`id`,`csaladi_nev`,`uto_nev`,`bejelentkezes`,`jelszo`) VALUES 
  (1,'Családi_1','Utónév_1','Login1',sha1('login1')),

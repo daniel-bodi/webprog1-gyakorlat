@@ -90,10 +90,32 @@
   /* Űrlapok */
   form {
     width: 100%;
-    max-width: 600px;
+    max-width: none; 
     margin: 0 auto;
   }
   
+  .form-container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  form label {
+  font-weight: bold;
+  margin-bottom: 4px;
+  display: block;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  display: block;
+}
+
   input[type="text"],
   input[type="password"],
   input[type="email"],

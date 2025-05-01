@@ -1,25 +1,31 @@
 <div class="forms-wrapper">
   <form action="?oldal=belep" method="post">
-    <fieldset>
-      <legend>Bejelentkezés</legend>
-      <br>
-      <input type="text" name="felhasznalo" placeholder="felhasználó" required><br><br>
-      <input type="password" name="jelszo" placeholder="jelszó" required><br><br>
-      <input type="submit" name="belepes" value="Belépés">
-      <br>&nbsp;
-    </fieldset>
+    <h2>Bejelentkezés</h2>
+
+    <label for="belep-felhasznalo">Felhasználó:</label>
+    <input type="text" id="belep-felhasznalo" name="felhasznalo">
+
+    <label for="belep-jelszo">Jelszó:</label>
+    <input type="password" id="belep-jelszo" name="jelszo">
+
+    <input type="submit" name="belepes" value="Belépés">
   </form>
 
   <form action="?oldal=regisztral" method="post">
-    <fieldset>
-      <legend>Regisztráció</legend>
-      <br>
-      <input type="text" name="vezeteknev" placeholder="vezetéknév" required><br><br>
-      <input type="text" name="utonev" placeholder="utónév" required><br><br>
-      <input type="text" name="felhasznalo" placeholder="felhasználói név" required><br><br>
-      <input type="password" name="jelszo" placeholder="jelszó" required><br><br>
-      <input type="submit" name="regisztracio" value="Regisztráció">
-      <br>&nbsp;
-    </fieldset>
+    <h2>Regisztráció</h2>
+
+    <label for="vezeteknev">Vezetéknév:</label>
+    <input type="text" id="vezeteknev" name="vezeteknev">
+
+    <label for="utonev">Utónév:</label>
+    <input type="text" id="utonev" name="utonev">
+
+    <label for="reg-felhasznalo">Felhasználónév:</label>
+    <input type="text" id="reg-felhasznalo" name="felhasznalo">
+
+    <label for="reg-jelszo">Jelszó:</label>
+    <input type="password" id="reg-jelszo" name="jelszo">
+
+    <input type="submit" name="regisztracio" value="Regisztráció">
   </form>
 </div>
