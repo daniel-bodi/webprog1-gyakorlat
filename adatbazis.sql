@@ -1,8 +1,3 @@
-CREATE DATABASE `gyakrolat_beadando`
-CHARACTER SET utf8 COLLATE utf8_general_ci;
-
-USE `gyakrolat_beadando`;
-
 CREATE TABLE `felhasznalok` (
   `id` int(10) unsigned NOT NULL auto_increment,
   `csaladi_nev` varchar(45) NOT NULL default '',

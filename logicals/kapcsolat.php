@@ -5,7 +5,7 @@ $uzenet = '';
 if (isset($_POST['kuldes'])) {
     if (!empty($_POST['nev']) && !empty($_POST['email']) && !empty($_POST['uzenet'])) {
         try {
-            $dbh = new PDO('mysql:host=localhost;dbname=gyakrolat_beadando', 'root', '', [
+            $dbh = new PDO('mysql:host=localhost;dbname=webprogdb', 'webprogdb', '123QWEasd!%', [
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
             ]);
             $dbh->query('SET NAMES utf8 COLLATE utf8_hungarian_ci');
